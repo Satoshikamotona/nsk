@@ -1,0 +1,68 @@
+body{
+    
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+html{
+
+    background: url(https://www.shutterstock.com/image-vector/dark-modern-tech-background-design-260nw-1402877378.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+input{
+    padding: 10px;
+
+    border-radius: 5px;
+    border-bottom: 1px solid white!important;
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+   max-height: 20px;
+   margin-top: 60px;
+
+
+}
+
+input:focus{ 
+    border-bottom: 1px solid white;
+    border: 1px solid #ff7400;
+    outline: none;
+}
+
+.main {
+    width: 70%;
+    
+    height: 200px;
+
+    backdrop-filter: blur(20px);
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    border-radius: 30px;
+
+     border: 1px solid rgba(255, 255, 255, 0.285);
+     animation: scale 1s infinite linear;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        border-color: aqua;
+        transform: translatey(10px);
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+}
